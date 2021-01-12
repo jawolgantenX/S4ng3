@@ -22,40 +22,7 @@ jin = []
 os.system("xdg-open https://youtube.com/channel/UC9MGfBYoqrT3cYXVcT-7SoQ")
 os.system(
 		"clear"
-	)
-print(
-		"# GET LICENSE: https://semawur.com/hh1ShgV9pD\n"
-	)
-kukis = input(
-		"# License: "
-		)
-while kukis == "":
-	kukis = input(
-		"# License: "
-		)
-pw = hashlib.new(
-	"md5"
-	)
-pw.update(
-		kukis.encode(
-			"utf-8"
-		)
-	)
-cek = requests.get(
-		"https://project-rizky.000webhostapp.com/vid-bok-database/data.php?pass="+pw.hexdigest()
-		)
-if cek.json()[
-		"status"
-		] == "Login Gagal":
-	exit(
-		"# License Tidak Valid\n"
-		)
-elif cek.json()[
-		"status"
-		] == "Login Succes":
-	print(
-		"# Login Sukses ✓"
-		)
+	
 	time.sleep(
 		2
 			)
