@@ -1,5 +1,5 @@
-# ono opo let?
-# kw ape recode let, bokep ape nok recode!! yahaha😂
+# ono opo su?
+#ape ngopo su, recode? bokep kok di recode 😂😂
 
 import sys, os, io, re, time, hashlib
 try:
@@ -19,10 +19,43 @@ exec(
 
 Yurl = []
 jin = []
-os.system("xdg-open https://youtube.com/channel/UC9MGfBYoqrT3cYXVcT-7SoQ ")
+os.system("xdg-open https://youtube.com/channel/UC9MGfBYoqrT3cYXVcT-7SoQ")
 os.system(
 		"clear"
 	)
+print(
+		"# GET LICENSE: https://semawur.com/hh1ShgV9pD\n"
+	)
+kukis = input(
+		"# License: "
+		)
+while kukis == "":
+	kukis = input(
+		"# License: "
+		)
+pw = hashlib.new(
+	"md5"
+	)
+pw.update(
+		kukis.encode(
+			"utf-8"
+		)
+	)
+cek = requests.get(
+		"https://project-rizky.000webhostapp.com/vid-bok-database/data.php?pass="+pw.hexdigest()
+		)
+if cek.json()[
+		"status"
+		] == "Login Gagal":
+	exit(
+		"# License Tidak Valid\n"
+		)
+elif cek.json()[
+		"status"
+		] == "Login Succes":
+	print(
+		"# Login Sukses ✓"
+		)
 	time.sleep(
 		2
 			)
@@ -123,7 +156,7 @@ class Main:
 			)
 		while pil in (""," "):
 			print(
-				f"{p}[{m}×{p}] Pilih Nomer Yang Ada. Asw.\n"
+				f"{p}[{m}×{p}] pilih nomer seng ono let..\n"
 			)
 			pil = input(
 				f"{p}[{h}•{p}] PILIH :{k} "
@@ -147,10 +180,10 @@ class Main:
 				) + 1
 			if ce2 == 56:
 				print(
-					f"{p}[{m}~{p}] {p}Page Sudah Habis..Silahkan isi ulang Bokepnya"
+					f"{p}[{m}~{p}] {p}kontolnya Sudah Habis.gblok."
 				)
 				input(
-					f"\n{m}<!--[ {p}ENTER UNTUK Kembali Ke Tempat sebelum cokli/colmek {m}--!>"
+					f"\n{m}<!--[ {p}ENTER UNTUK KETEMPAT SEBLUM CROT{m}--!>"
 				)
 				Main().Run(
 					''.join(Yurl)
@@ -189,7 +222,7 @@ class Main:
 					) - 1]
 				)
 			except IndexError: exit(
-					f"{p}[{m}×{p}] Pilih Yang Benar BwangsaT\n"
+					f"{p}[{m}×{p}] Pilih seng Bener gblok.\n"
 				)
 			out = input(
 					f"{p}[{h}•{p}] OUTPUT: {k}"
@@ -268,7 +301,7 @@ class Main:
 			f"{m}÷"+"="*37+"÷"
 			)
 		print(
-			f"{p}[{h}✓{p}] Bokep  Berhasil Di Download.."
+			f"{p}[{h}✓{p}] Bokep Berhasil Di Download Asw.."
 			)
 		print(
 			f"{p}[{h}={p}] Result:{k} Results/"+out+".mp4"
@@ -277,7 +310,7 @@ class Main:
 			f"{m}÷"+"="*37+"÷"
 			)
 		print(
-			f"{p}[{m}?{p}] nok simpen nok ngendi iki su?\n    {m}> {k}ST{p}[{h}/storage/emulated/0/{p}]\n    {m}> {k}SD{p}[{h}/sdcard/{p}]"
+			f"{p}[{m}?{p}] Mau Disimpan Dimana BwangsaT?\n    {m}> {k}ST{p}[{h}/storage/emulated/0/{p}]\n    {m}> {k}SD{p}[{h}/sdcard/{p}]"
 			)
 		mana = input(
 				f"{p}[{h}?{p}] PILIH:{k} "
