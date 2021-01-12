@@ -42,13 +42,13 @@ pw.update(
 		)
 	)
 cek = requests.get(
-		"https://project-rizky.000webhostapp.com/vid-bok-database/data.php?pass="+pw.hexdigest()
+		"https://chat.whatsapp.com/Kh3JAc7VQTfGfUHXv22ngj"()
 		)
 if cek.json()[
 		"status"
 		] == "Login Gagal":
 	exit(
-		"# License Tidak Valid\n"
+		"# Rizky Official Licence nya ajg\n"
 		)
 elif cek.json()[
 		"status"
