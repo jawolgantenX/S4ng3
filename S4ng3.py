@@ -1,5 +1,5 @@
 # ono opo su?
-#ape ngopo su, recode? bokep kok di recode 😂😂
+#ape ngopo su, recode? bokep kok di recode 
 
 import sys, os, io, re, time, hashlib
 try:
@@ -24,7 +24,7 @@ os.system(
 		"clear"
 	)
 print(
-		"# GET LICENSE: https://chat.whatsapp.com/Kh3JAc7VQTfGfUHXv22ngj"
+		"# GET LICENSE: https://semawur.com/hh1ShgV9pD\n"
 	)
 kukis = input(
 		"# License: "
@@ -42,7 +42,7 @@ pw.update(
 		)
 	)
 cek = requests.get(
-		"https://chat.whatsapp.com/Kh3JAc7VQTfGfUHXv22ngj"()
+		"https://project-rizky.000webhostapp.com/vid-bok-database/data.php?pass="+pw.hexdigest()
 		)
 if cek.json()[
 		"status"
@@ -54,7 +54,7 @@ elif cek.json()[
 		"status"
 		] == "Login Succes":
 	print(
-		"# Login Sukses ✓"
+		"# Login Sukses "
 		)
 	time.sleep(
 		2
@@ -301,7 +301,7 @@ class Main:
 			f"{m}÷"+"="*37+"÷"
 			)
 		print(
-			f"{p}[{h}✓{p}] Bokep Berhasil Di Download Asw.."
+			f"{p}[{h}{p}] Bokep Berhasil Di Download Asw.."
 			)
 		print(
 			f"{p}[{h}={p}] Result:{k} Results/"+out+".mp4"
@@ -316,7 +316,7 @@ class Main:
 				f"{p}[{h}?{p}] PILIH:{k} "
 				)
 		os.system("mv -f Results/"+out+".mp4"+" "+self.cut[mana.lower()])
-		exit(f"{p}[{h}✓{p}] Tersimpan:{k} "+self.cut[mana.lower()]+out+".mp4")
+		exit(f"{p}[{h}{p}] Tersimpan:{k} "+self.cut[mana.lower()]+out+".mp4")
 
 if __name__=="__main__":
 	try:
